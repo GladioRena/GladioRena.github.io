@@ -1,0 +1,85 @@
+body{
+    background:black;
+    color:white;
+    font-family:Arial;
+    margin:0;
+}
+
+/* ÜST MENU */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:3px solid white;
+    padding:20px;
+}
+
+.menu{
+    font-size:28px;
+    text-shadow:0 0 10px white;
+}
+
+.logo img{
+    height:80px;
+}
+
+/* ANA ALAN */
+
+main{
+    display:flex;
+}
+
+/* SOL OYUNLAR */
+
+.games{
+    width:50%;
+    padding:40px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:40px;
+}
+
+.game{
+    border:3px solid white;
+    border-radius:15px;
+    height:150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    transition:0.3s;
+}
+
+.game:hover{
+    background:#111;
+    transform:scale(1.05);
+}
+
+/* SAĞ PANEL */
+
+.sidebar{
+    width:50%;
+    padding:40px;
+    border-left:4px solid white;
+}
+
+.box{
+    border:3px solid white;
+    border-radius:15px;
+    height:120px;
+    margin-bottom:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.bigbox{
+    border:3px solid white;
+    border-radius:15px;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+}
